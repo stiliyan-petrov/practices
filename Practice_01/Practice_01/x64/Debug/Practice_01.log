@@ -1,0 +1,4 @@
+﻿  Practice_01.cpp
+C:\Users\USER\OneDrive\Documents\GitHub\practices\Practice_01\Practice_01\Practice_01.cpp(167,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\USER\OneDrive\Documents\GitHub\practices\Practice_01\Practice_01\Practice_01.cpp(171,42): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Practice_01.vcxproj -> C:\Users\USER\OneDrive\Documents\GitHub\practices\Practice_01\x64\Debug\Practice_01.exe
