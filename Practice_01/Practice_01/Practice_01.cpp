@@ -142,8 +142,8 @@ int main()
     std::cout << "Enter number of seconds: ";
     std::cin >> sec;
     int d = sec / 86400;
-    int hr = sec / 3600 - d * 24;
-    int min = sec / 60 - d * 1440 - hr * 60;
+    int hr = (sec / 3600) % 24;
+    int min = (sec / 60) % 60;
     std::cout << sec << " seconds = " << d << " days, " << hr << " hours, " << min << " minutes, and ";
     sec = sec % 60;
     std::cout << sec << " seconds" << std::endl;
